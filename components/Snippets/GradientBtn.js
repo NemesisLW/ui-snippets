@@ -73,17 +73,17 @@ const cssStyling = `
 .exampleClass {
 	position: relative;
 	padding: 1px;
-	borderRadius: 8px;
+	border-radius: 8px;
 }
 
 .exampleClass:hover div {
-	transitionDuration: 0.25s;
+	transition-duration: 0.25s;
 	opacity: 1;
 }
 
 .exmapleClass div {
 	filter: blur(1px);
-	borderRadius: 8px;
+	border-radius: 8px;
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -97,10 +97,10 @@ const cssStyling = `
 
 .exampleClass span {
 	padding: 12px 24px;
-	backgroundColor: white;
+	background-color: white;
 	position: relative;
 	color: black;
-	borderRadius: 8px;
+	border-radius: 8px;
 	cursor: pointer;
 	transition: transform 250ms cubic-bezier(.2,.8,.4,1);
 }
